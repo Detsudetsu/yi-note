@@ -27,7 +27,8 @@ export const KEY_PAUSE_VIDEO_WHEN_EDITING = 'pause_video_when_editing';
 
 export const SCREENSHOT_RESOLUTION = {
   360: { x: 640, y: 360 },
-  720: { x: 1280, y: 720 }
+  720: { x: 1280, y: 720 },
+  1080: { x: 1920, y: 1080 }
 };
 
 export const REST_BASE_URL =
