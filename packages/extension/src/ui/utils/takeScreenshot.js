@@ -18,7 +18,7 @@ export default async element => {
   // TODO: pass in options instead of use settings from storage
   const settings = await StorageService.getStorage().getSettings();
   const { x, y } = SCREENSHOT_RESOLUTION[
-    settings[KEY_SCREENSHOT_RESOLUTION] || 360
+    settings[KEY_SCREENSHOT_RESOLUTION] || 1080
   ];
 
   if (!element) {
